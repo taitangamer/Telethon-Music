@@ -24,8 +24,8 @@ async def start(event):
              caption=PM_START_TEXT.format(event.sender.first_name), 
              buttons=[
         [Button.url("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ", f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-        [Button.url("👨‍💻 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", "https://github.com/ITZ-ZAID/Telethon-Music")],
-        [Button.url("🗣️ ꜱᴜᴘᴘᴏʀᴛ", f"https://t.me/{Config.SUPPORT}"), Button.url("📣 ᴜᴘᴅᴀᴛᴇꜱ", f"https://t.me/{Config.CHANNEL}")],
+
+        [Button.url("🗣️ ꜱᴜᴘᴘᴏʀᴛ", f"https://t.me/groupfriendchat"), Button.url("📣 ᴜᴘᴅᴀᴛᴇꜱ", f"https://t.me/musicbothelp")],
         [Button.inline("ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", data="help")]])
        return
 
